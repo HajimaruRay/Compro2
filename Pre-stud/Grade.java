@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Grade {
     public static void main(String[] args)
     {
-        Scanner scanner = new Scanner(System.in);
-        String check;
+        Scanner scanner = new Scanner(System.in);   //Decare scan function
+        String check;   //annouce string
         do{
-            double score = scanner.nextDouble();
+            double score = scanner.nextDouble();    //Scan Double score and annouce score
 
             if (score > 100 || score < 0)
             {
@@ -32,9 +32,9 @@ public class Grade {
             {
                 System.out.println("F");
             }
-            check = scanner.next();
-        }while (check.equalsIgnoreCase("Yes"));
-        scanner.close();
+            check = scanner.next();     //scan check
+        }while (check.equalsIgnoreCase("Yes")); //compare check is "Yes"
+        scanner.close();    //close
     }
 
 }
