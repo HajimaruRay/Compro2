@@ -15,11 +15,11 @@ public class test
             for (int j = 1; j <= col; j++) {
                 if (i == 1 || i == row || j == 1 || j == col || i == j || j == fixcol)
                 {
-                    System.out.print("* ");
+                    System.out.printf("*");
                 }
                 else
                 {
-                    System.out.print("  ");
+                    System.out.printf("  ");
                 } 
             }
             fixcol--;
