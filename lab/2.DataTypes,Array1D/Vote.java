@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P41_Vote 
+public class Vote 
 {
     public static void main(String[] args)
     {

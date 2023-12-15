@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P31_NumberOccurrence
+public class NumberOccurrence
 {
     public static void main(String[] args)
     {

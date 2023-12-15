@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class P1_Lease1
+public class Lease1
 {
     public static void main(String[] args)
     {
