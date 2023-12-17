@@ -38,6 +38,6 @@ public class Slotreservation
         {
             System.out.printf("%d ",Arr2[i]);
         }
-
+        sc.close();
     }    
 }
