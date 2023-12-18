@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class IndexOf 
+public class IndexOf1
 {
     public static void main(String[] args)
     {
