@@ -51,6 +51,16 @@ public class ComplimentConvertor
         }
         return Number;
     }
+
+    public static void NumberTypePrint(char[] NumebrTy)
+    {
+        System.out.print("Your input = ");
+        for (int i = 0;i < NumebrTy.length;i++)
+        {
+            System.out.print(NumebrTy[i]);
+        }
+        System.out.println();
+    }
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
@@ -63,18 +73,22 @@ public class ComplimentConvertor
 
         if (WhatShouldIdo == 1)
         {
+            NumberTypePrint(Numbertype);
             System.out.println(Onecompli(Numbertype));
         }
         else if (WhatShouldIdo == 2)
         {
+            NumberTypePrint(Numbertype);
             System.out.println(Twocompli(Numbertype));
         }
         else if (WhatShouldIdo == 3)
         {
+            char OGNumber[] = Numbertype.clone();
+            NumberTypePrint(Numbertype);
             System.out.print("One Compliment = ");
             System.out.println(Onecompli(Numbertype));
             System.out.print("Two Compliment = ");
-            System.out.println(Twocompli(Numbertype));
+            System.out.println(Twocompli(OGNumber));
         }
     }    
 }
