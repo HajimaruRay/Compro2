@@ -55,5 +55,6 @@ public class SpellChecking2
             }
             System.out.println(directory[result[i]]);
         }
+        sc.close();
     }   
 }
