@@ -28,3 +28,8 @@ public class test
         scanner.close();
     }
 }
+
+class ClassA
+{
+    
+}

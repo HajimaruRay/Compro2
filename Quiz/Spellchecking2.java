@@ -53,5 +53,6 @@ public class Spellchecking2 { //(แนะนำให้ลงไปอ่า�
                 System.out.println(zname);
             }
         }
+        sc.close();
     }
 }
