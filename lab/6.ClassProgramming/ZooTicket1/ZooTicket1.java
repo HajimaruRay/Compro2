@@ -1,3 +1,4 @@
+package ZooTicket1;
 import java.util.Scanner;
 
 class  ZooTicket

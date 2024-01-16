@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class  ZooTicket
+class  ZooTicket1
 {
     String Name;
     int price = 100;
@@ -8,7 +8,7 @@ class  ZooTicket
     boolean IsSealbook = false;
     boolean IsTigerbook = false;
 
-    ZooTicket(String Name)
+    ZooTicket1(String Name)
     {
         this.Name = Name;
     }
@@ -101,7 +101,7 @@ public class ZooTicket2
     {
         Scanner sc = new Scanner(System.in);
         String Name = sc.nextLine();
-        ZooTicket ZT = new ZooTicket(Name);
+        ZooTicket1 ZT = new ZooTicket1(Name);
         int booking[] = new int[5];
         for (int i = 0;;i++) 
         {
