@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Theater1
+class Theater
 {
     int numSeats;
     int basePrice;
@@ -11,7 +11,7 @@ class Theater1
     boolean Seats[];
 
     String title;
-    Theater1 (boolean threeD, boolean luxury, int numSeats)
+    Theater (boolean threeD, boolean luxury, int numSeats)
     {
         this.threeD = threeD;
         this.luxury = luxury;
@@ -166,7 +166,7 @@ public class Theater2
         {
             luxury = true;
         }
-        Theater1 t = new Theater1(threeD, luxury, numSeats);
+        Theater t = new Theater(threeD, luxury, numSeats);
         scan.nextLine(); // throw away new line character
         String title = scan.nextLine();
         t.setTitle(title);
