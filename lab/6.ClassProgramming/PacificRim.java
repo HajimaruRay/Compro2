@@ -189,7 +189,6 @@ class Kaiju
 public class PacificRim {
 
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         Jaeger j = null;
         Kaiju k = null;
