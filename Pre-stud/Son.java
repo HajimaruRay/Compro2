@@ -1,10 +1,18 @@
 
 import java.util.Scanner;
 
-public class Son {
+public class Son 
+{
+
+    void Kuy(Scanner sc)
+    {
+        int i = sc.nextInt();
+    }
     public static void main(String[] args)
     {
-        String name = "Chonlaree";
-        System.out.println(name.charAt(0));
+        Scanner sc = new Scanner(System.in);
+        Son S = new Son();
+        S.Kuy(sc);
+
     }
 }

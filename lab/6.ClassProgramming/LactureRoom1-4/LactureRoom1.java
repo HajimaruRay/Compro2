@@ -1,8 +1,8 @@
-class LectRoom
+class LectRoom2
 {
     int classCode, capacity, currentSeats;
     String name;
-    LectRoom (int classCode, String name, int capacity)
+    LectRoom2 (int classCode, String name, int capacity)
     {
         this.classCode = classCode;
         this.name = name;

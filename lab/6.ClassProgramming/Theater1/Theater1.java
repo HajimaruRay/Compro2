@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Theater
+class Theater69
 {
     boolean Is3D;
     boolean IsLux;
@@ -11,7 +11,7 @@ class Theater
     String title;
     int basePrice = 0;
 
-    Theater (int Is3D, int IsLux, int Seat, String MName, int TicketPrice)
+    Theater69(int Is3D, int IsLux, int Seat, String MName, int TicketPrice)
     {
         if (Is3D == 1)
         {
@@ -102,7 +102,7 @@ public class Theater1
         int TicketPrice = sc.nextInt();
         sc.close();
 
-        Theater th = new Theater(Is3D, IsLux, Seat, MName, TicketPrice);
+        Theater69 th = new Theater69(Is3D, IsLux, Seat, MName, TicketPrice);
         th.setTitle(MName);
         th.setBasePrice(TicketPrice);
         th.printInfo();
