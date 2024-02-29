@@ -14,42 +14,19 @@ public class InnerText
 
         for (int i = 0;i < 5;i++)
         {
-            if (Cut.length() == 1)
+            firstCut = LongPlanText.indexOf(Cut);
+            Plaintext = LongPlanText.substring(firstCut + Cut.length());
+            int lastCut = Plaintext.indexOf(Cut);
+            if (lastCut == -1)
             {
-                firstCut = LongPlanText.indexOf(Cut);
-                Plaintext = LongPlanText.substring(firstCut+1);
-                int lastCut = Plaintext.indexOf(Cut);
-                if (lastCut == -1)
-                {
-                    break;
-                }
-                LongPlanText = Plaintext;
-                Plaintext = Plaintext.substring(0,lastCut);
-                if (i % 2 == 0)
-                {
-                    //System.out.println(Plaintext);
-                    SplitText.add(Plaintext);
-                }
+                break;
             }
-            else
+            LongPlanText = Plaintext;
+            Plaintext = Plaintext.substring(0,lastCut);
+            if (i % 2 == 0)
             {
-                for (int j = 0;j< Cut.length();j++)
-                {
-                    firstCut = LongPlanText.indexOf(Cut.charAt(j));
-                }
-                Plaintext = LongPlanText.substring(firstCut+1);
-                int lastCut = Plaintext.indexOf(Cut);
-                if (lastCut == -1)
-                {
-                    break;
-                }
-                LongPlanText = Plaintext;
-                Plaintext = Plaintext.substring(0,lastCut);
-                if (i % 2 == 0)
-                {
-                    //System.out.println(Plaintext);
-                    SplitText.add(Plaintext);
-                }
+                //System.out.println(Plaintext);
+                SplitText.add(Plaintext);
             }
         }
 
