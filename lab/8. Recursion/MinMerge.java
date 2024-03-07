@@ -28,6 +28,7 @@ public class MinMerge
         String str1 = scan.next();
         String str2 = scan.next();
         MinMerge merger = new MinMerge();
-        System.out.println(merger.merge(str1, str2));    
+        System.out.println(merger.merge(str1, str2)); 
+        scan.close();   
     }
 }
