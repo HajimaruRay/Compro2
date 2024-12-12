@@ -23,7 +23,7 @@ public class NumTable1
             int InputRow = sc.nextInt();
             int InputCol = sc.nextInt();
 
-            if ((InputRow <= row && row >= 1) && (InputCol <= col && col >= 1))
+            if ((InputRow <= row && InputRow >= 1) && (InputCol <= col && InputCol >= 1))
             {
                 System.out.print(arr[InputRow][InputCol]);
             }
